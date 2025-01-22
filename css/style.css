@@ -22,7 +22,7 @@ textarea{
 .generalDiv{
     background-color:  #ff7a7a ;
     background-image: url('../assets/bg-intro-desktop.png');
-    min-height: 100vh;
+    /* min-height: 100vh; */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
