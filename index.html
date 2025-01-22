@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Suscribe Form</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./javascript/script.js" defer></script>
+</head>
+<body>
+   <div class="generalDiv">
+    <section class="textSection">
+        <h1>Learn To Code By Watching Others</h1>
+        <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable.</p>
+        
+    </section>
+    <section class="formSection">
+        
+        <form id="myForm" >
+            <input type="text" id="firstName" placeholder="First Name" required >
+            <input type="text" id="lastName" placeholder="Last Name" required>
+            <input type="email" id="email" placeholder="Email Address" required>
+            <textarea placeholder="Enter Your Bio" id="bio" required></textarea>
+            <button  id="summitButton">Claim Your Free Trial</button>
+            <!-- <p id="message">Value</p> -->
+        </form>
+    </section>
+
+    <!-- My Modal -->
+     <div id="modal" class="modal">
+        <div class="modalContent">
+            <p>You have Suscribed To Our NewsLetter</p>
+            <h2> <span id="message1"></span> <span id="message2"></span>  </h2>
+            <p id="message3"></p>
+            <button id="closeButton">Close</button>
+        </div>
+     </div>
+   </div>
+</body>
+</html>
